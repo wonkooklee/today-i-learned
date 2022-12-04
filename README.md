@@ -11,8 +11,8 @@ root@Wonkook-Lee $ echo "Thank you for visiting!" >> your_mind.sh
 
 ## > Table of Contents
 ---
-- 📂 Browser
-  - ⚙️ [Web Worker and Service Worker](categories/browser/web-worker-and-service-worker.md)
+- 📂 Web APIs
+  - ⚙️ [Web Worker and Service Worker](categories/web-apis/web-worker-and-service-worker.md)
 - 📂 JavaScript
 - 📂 CS Knowledges
 - 📂 Architecture
