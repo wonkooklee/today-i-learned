@@ -2,7 +2,7 @@
 
 ```bash
 # !/bin/sh
-root@Wonkook-Lee $ echo "Thank you for visiting!" >> your_mind.sh
+root@Wonkook-Lee $ echo "Thank you for visiting\!" >> your_mind.sh
 
 # The Latest Update: 2022-12-04
 ```
