@@ -10,7 +10,6 @@ root@Wonkook-Lee $ echo "Thank you for visiting\!" >> your_mind.sh
 <br />
 
 ## > Table of Contents
----
 - 📂 Web APIs
   - ⚙️ [Web Worker and Service Worker](categories/web-apis/web-worker-and-service-worker.md)
 - 📂 JavaScript
@@ -22,7 +21,6 @@ root@Wonkook-Lee $ echo "Thank you for visiting\!" >> your_mind.sh
 <br />
 
 ## > Credits
----
 Author: Wonkook Lee
 
 - [Github](https://github.com/wonkooklee)
