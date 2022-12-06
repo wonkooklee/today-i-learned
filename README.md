@@ -14,6 +14,8 @@ root@Wonkook-Lee $ echo "Thank you for visiting\!" >> your_mind.sh
   - 📂 Web Worker
     - ⚙️ [Web Worker and Service Worker](categories/web-apis/web-worker/web-worker-and-service-worker.md)
 - 📂 JavaScript
+  - 📂 Test
+    - ⚙️ [Learning Jest and RTL](categories/javascript/test/jest-and-rtl.md)
 - 📂 CS Knowledges
 - 📂 Architecture
 - 📂 Virtualization and Containers
