@@ -14,13 +14,15 @@ root@Wonkook-Lee $ echo "Thank you for visiting\!" >> your_mind.sh
   - 📂 Web Worker
     - ⚙️ [Web Worker and Service Worker](categories/web-apis/web-worker/web-worker-and-service-worker.md)
 - 📂 JavaScript
+  - 📂 Build in Objects
+    - ⚙️ [[translated] When You Should Prefer Map Over Object In JavaScript](categories/javascript/build-in-objects/map-vs-object/map-vs-object.md)
   - 📂 Test
     - ⚙️ [Learning Jest and RTL](categories/javascript/test/jest-and-rtl.md)
 - 📂 CS Knowledges
 - 📂 Architecture
 - 📂 Virtualization and Containers
 
-
+[translated] When You Should Prefer Map Over Object In JavaScript
 <br />
 
 ## > Credits
