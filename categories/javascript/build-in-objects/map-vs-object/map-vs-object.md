@@ -29,6 +29,12 @@
 
 임의적인 의역이 포함되어 있고, 번역 품질이 그리 좋지 않을 수 있는 점 읽으시는 분들께 미리 양해를 구합니다. 😊
 
+또한 Hash map이 자주 언급되어 있는데, 엄밀히 JavaScript의 Map은 그 자체로 Hash map 또는 Hash Table이 아님을 말씀드립니다.
+
+> Map object must be implemented using either hash tables or other mechanisms that, on average, provide access times that are sublinear on the number of elements in the collection.
+
+https://tc39.es/ecma262/#sec-map-objects
+
 <br />
 
 ---
