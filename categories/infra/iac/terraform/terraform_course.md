@@ -1,4 +1,4 @@
-# Complete Terraform Course
+# Learning IaC with Terraform - Chapter I
 
 > Thanks to  
 [Course on Youtube](https://www.youtube.com/watch?v=7xngnjfIlK4)
