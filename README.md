@@ -22,6 +22,7 @@ root@Wonkook-Lee $ echo "Thank you for visiting\!" >> your_mind.sh
   - 📂 IaC
     - 📂 Terraform
       - ⚙️ [Infrastructure as Code with Terraform](categories/infra/iac/terraform/terraform_course.md)
+  - ⚙️ [Web Server and WAS(Web Application Server) in a nutshell](categories/infra/webserver_and_was.md)
 - 📂 `CS Knowledges`
 - 📂 `Architecture`
 - 📂 `Virtualization and Containers`
