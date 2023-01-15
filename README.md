@@ -10,14 +10,16 @@ root@Wonkook-Lee $ echo "Thank you for visiting\!" >> your_mind.sh
 <br />
 
 ## > Table of Contents
+
 - 📂 `Web APIs`
   - 📂 Web Worker
     - ⚙️ [Web Worker and Service Worker](categories/web-apis/web-worker/web-worker-and-service-worker.md)
 - 📂 `JavaScript`
   - 📂 Build in Objects
     - ⚙️ [[translated] When You Should Prefer Map Over Object In JavaScript](categories/javascript/build-in-objects/map-vs-object/map-vs-object.md)
+    - ⚙️ [[Scrap] Proxy and Reflect]](categories/javascript/build-in-objects/proxy-and-reflect/proxy-and-reflect.md)
   - 📂 Test
-    - ⚙️ [Learning Jest and RTL](categories/javascript/test/jest-and-rtl.md) 
+    - ⚙️ [Learning Jest and RTL](categories/javascript/test/jest-and-rtl.md)
 - 📂 `Infra`
   - 📂 IaC
     - 📂 Terraform
@@ -31,6 +33,7 @@ root@Wonkook-Lee $ echo "Thank you for visiting\!" >> your_mind.sh
 <br />
 
 ## > Credits
+
 Author: Wonkook Lee
 
 - [Github](https://github.com/wonkooklee)
@@ -40,11 +43,11 @@ Author: Wonkook Lee
 
 <br /><br />
 
-
 ![]()
 <img src="https://velog.velcdn.com/images/oneook/profile/6435ac79-fe70-444e-8d7c-1698b6055516/Untitled-3.jpg" width="100" alt="Wonkook Lee's Profile" style="border-radius:50%;" />
 
 ### Wonkook Lee
+
 Frontend Engineer at KoreaCreditData
 
 <br />
