@@ -17,7 +17,7 @@ root@Wonkook-Lee $ echo "Thank you for visiting\!" >> your_mind.sh
 - 📂 `JavaScript`
   - 📂 Build in Objects
     - ⚙️ [[translated] When You Should Prefer Map Over Object In JavaScript](categories/javascript/build-in-objects/map-vs-object/map-vs-object.md)
-    - ⚙️ [[Scrap] Proxy and Reflect]](categories/javascript/build-in-objects/proxy-and-reflect/proxy-and-reflect.md)
+    - ⚙️ [[Scrap] Proxy and Reflect](categories/javascript/build-in-objects/proxy-and-reflect/proxy-and-reflect.md)
   - 📂 Test
     - ⚙️ [Learning Jest and RTL](categories/javascript/test/jest-and-rtl.md)
 - 📂 `Infra`
