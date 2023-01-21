@@ -14,6 +14,9 @@ root@Wonkook-Lee $ echo "Thank you for visiting\!" >> your_mind.sh
 - 📂 `Web APIs`
   - 📂 Web Worker
     - ⚙️ [Web Worker and Service Worker](categories/web-apis/web-worker/web-worker-and-service-worker.md)
+- 📂 `Testing`
+  - 📂 Tools
+    - ⚙️ [Cypress: First Meeting of](categories/test/cypress/first-meet-cypress.md)
 - 📂 `JavaScript`
   - 📂 Build in Objects
     - ⚙️ [[translated] When You Should Prefer Map Over Object In JavaScript](categories/javascript/build-in-objects/map-vs-object/map-vs-object.md)

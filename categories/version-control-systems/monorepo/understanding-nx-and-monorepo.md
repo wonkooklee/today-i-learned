@@ -53,7 +53,9 @@
 <br />
 <br />
 
-## Hands on
+# Hands on
+
+## 1) Package-Based Monorepo
 
 ### 워크 스페이스 시작하는 방법
 
@@ -152,9 +154,87 @@ Standalone Angular app: Nx configures Jest, ESLint and Cypress.
 ## 루트 레벨 의존성 설치
 
 ```bash
+$ npm i dependency -w
 $ npm i typescript -D -w
 $ # -w [--workspace] 옵션을 사용할때 인자가 없으면 이는 워크스페이스 루트 레벨을 뜻한다.
 ```
+
+<br />
+<br />
+
+## 하위 레벨 패키지 npm script 실행
+```bash
+$ nx run child-workspace:command
+$ nx run is-even:build
+```
+
+<br />
+<br />
+
+## 각 워크스페이스의 패키지 의존성 참조
+
+```mermaid
+flowchart TB
+subgraph E[Package-Based Monorepo]
+  A(package:is-odd) --> B(package:is-even)
+  subgraph C[Workspace]
+  A
+  end
+  subgraph D[Workspace]
+  B
+  end
+end
+```
+
+`is-odd` 패키지가 Dependency로써 `is-even` 패키지를 참조할 수 있도록 연결시키는 방법은 아래와 같다.
+
+> 
+
+#### 1) `package.json`에 의존성 명시
+```json
+"name": "is-odd",
+/* ... */
+"dependencies": {
+  "is-even": "*" // latest version
+}
+```
+
+<br />
+<br />
+<br />
+
+## 2) Integrated Monorepo
+
+```bash
+npx create-nx-workspace@latest integrated --preset=ts
+```
+
+### 신규 워크스페이스 생성하기
+
+CLI 버전
+```bash
+npx nx g [generate] @nrwl/js:library
+```
+
+GUI 버전
+
+![image1](images/image-1.png)
+
+- VSCode 기준, `NX Console` Extension을 사용하면 훨씬 쉽게 라이브러리(패키지 또는 워크스페이스)를 만들 수 있다.
+- 라이브러리 관련 설정, 번들러, 컴파일러, 린터, 테스트 러너 등 필요한 설정들이 보기 쉽게 나열되어있음
+
+설정 메모
+name, unitTestRunner 등 이름만 보면 짐작가는 것들을 제외하고 메모할만한 설정들.
+- importPath: NPM 레지스트리에 퍼블리싱할때 사용될 라이브러리 명칭 (e.g. `@` 심볼로 나타내는 Package ownership 또는 Scoped packages 임을 표시할 수 있음 - @myorg/my-library)
+
+<br />
+
+```bash
+# 설정을 마친 후 copy/paste 버튼을 눌러 세팅된 commands를 얻을 수 있음
+nx generate @nrwl/js:library is-even --unitTestRunner=none --importPath=@wonkook/is-even --publishable
+```
+
+Local Linking
 
 
 
